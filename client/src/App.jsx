@@ -14,7 +14,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { io } from "socket.io-client";
 
 const App = () => {
-    const socket = io.connect("http://localhost:6000");
+    const socket = io.connect("https://upvoteserver.onrender.com/");
 
     return (
         <>
